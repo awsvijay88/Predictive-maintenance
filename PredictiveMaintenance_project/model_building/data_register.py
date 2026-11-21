@@ -1,6 +1,6 @@
 import pandas as pd
 
-RAW_PATH = "/content/PredictiveMaintenance_project/data/engine_data.csv"
+RAW_PATH = "PredictiveMaintenance_project/data/engine_data.csv"
 
 # Load the raw dataset
 df = pd.read_csv(RAW_PATH)
