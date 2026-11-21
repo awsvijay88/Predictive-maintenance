@@ -52,7 +52,7 @@ jobs:
             PredictiveMaintenance_project/artifacts/train_processed.csv
             PredictiveMaintenance_project/artifacts/test_processed.csv
 
-  model-traning:
+  model-training:
     needs: data-prep
     runs-on: ubuntu-latest
     steps:
