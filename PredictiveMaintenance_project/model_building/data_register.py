@@ -8,9 +8,9 @@ df = pd.read_csv(RAW_PATH)
 # Validate that the expected columns are present before registering it
 
 expected_columns = [
-        "Engine_RPM", "Lub_Oil_Pressure", "Fuel_Pressure",
-        "Coolant_Pressure", "Lub_Oil_Temperature",
-        "Coolant_Temperature", "Engine_Condition"
+        "Engine RPM", "Lub Oil Pressure", "Fuel Pressure",
+        "Coolant Pressure", "Lub Oil Temperature",
+        "Coolant Temperature", "Engine Condition"
     ]
 
 missing = [c for c in expected_columns if c not in df.columns]
