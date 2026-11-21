@@ -4,8 +4,13 @@ import pandas as pd
 import numpy as np
 import joblib
 
+st.write("joblib imported successfully")
+
 # Path to the trained model serialized inside the deployment folder
 model_path = os.path.join(os.path.dirname(__file__), "best_engine_failure_prediction_model_v1.joblib")
+st.write("Model path:", model_path)
+st.write("File exists:", os.path.exists(model_path
+                                        
 model = joblib.load(model_path)
 
 # Streamlit UI for Engine Predictive Maintenance Prediction
